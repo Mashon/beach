@@ -77,6 +77,36 @@ figcaption {
 .homepage-mini-pic {
   padding-top:50px;
   width: 90%;
-  
+}
 
-  }
+.homepage-mini-pic:last-child {
+  padding-bottom: 50px;
+}
+
+/*--------FOOTER-------------*/
+
+footer {
+  display: flex;
+  flex-direction: row;
+}
+
+#footer_links_2 {
+  padding-left: 100px;
+}
+
+
+
+.copyright_icons {
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.icons i {
+  padding-right: 20px;
+}
