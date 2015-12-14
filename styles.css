@@ -1,10 +1,59 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+/*-----------------------------*/
+/*-----------------------------*/
+/*--------HOMEPAGE-------------*/
+/*-----------------------------*/
+/*-----------------------------*/
+
+
+
+/*--------NAVBAR-------------*/
+
+#navbar {
+  display: flex;
+  /*flex-direction: row; THIS IS DEFAULT */
+  justify-content: flex-start;
+}
+
+
+/*--------IMAGE-------------*/
+
+
+
 .welcome_image {
   display: flex;
   flex-direction: column;
-  align-items: stretch
 }
 
 .naples_home_image {
-  height: 40%;
   width: 100%;
+}
+
+/*--------MAIN TITLE-------------*/
+.welcome_title_homepage {
+  display:flex;
+  justify-content: center;
+}
+
+.welcome_title_homepage h1 {
+
+}
+
+/*--------HOMEPAGE BODY TEXT-------------*/
+
+.homepage_text {
+  display: flex;
+  flex-direction: column;
+
 }
