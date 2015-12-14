@@ -40,6 +40,9 @@ li {
   width: 100%;
 }
 
+figcaption {
+  padding-left: 15px;
+}
 /*--------MAIN TITLE-------------*/
 .welcome_title_homepage {
   display:flex;
@@ -55,5 +58,25 @@ li {
 .homepage_text {
   display: flex;
   flex-direction: column;
-
 }
+
+.homepage_text p {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*--------Top Destinations-------------*/
+
+.destinations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000;
+}
+
+.homepage-mini-pic {
+  padding-top:50px;
+  width: 90%;
+  
+
+  }
